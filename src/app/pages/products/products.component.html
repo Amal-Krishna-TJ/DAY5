@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row gx-5">
+        @for (item of products; track item.id) {
+
+            <div class="card" style="width: 15rem;">
+                <img src="{{item.image}}" class="card-img-top object-fit-sm-contain" alt="...">
+                <div class="card-body">
+                <h5 class="card-title">{{item.title.slice(0,30)}}...</h5>
+                <p class="card-text">{{item.description.slice(0,100)}}...</p>
+                <a routerLink="{{item.id}}" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        }
+    </div>
+</div>

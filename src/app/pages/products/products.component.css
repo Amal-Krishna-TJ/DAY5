@@ -1,0 +1,12 @@
+img{
+    height: 250px;
+}
+.card-title{
+    height: 75px;
+}
+.card-text{
+    height: 130px;
+}
+.row{
+    padding-left: 90px;
+}
