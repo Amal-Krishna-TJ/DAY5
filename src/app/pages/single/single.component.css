@@ -1,0 +1,27 @@
+*{
+    color: rgb(40, 40, 40);
+    margin-left: 20px;
+}
+
+h6{
+    margin-left: 70px;
+}
+
+.img-fluid{
+    padding-left: 500px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 650px;
+    width: 950px;
+}
+
+.desc{
+    font-size: 30px;
+    text-indent: 100px;
+    padding-left: 10px;
+    color: rgb(84, 84, 84);
+}
+
+.h1{
+    font-size: 50px;
+}
